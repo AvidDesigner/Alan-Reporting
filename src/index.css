@@ -1,0 +1,39 @@
+/* #root, html, body {
+    height: 100vh;
+} */
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 40px;
+    padding-inline: 10px;
+    text-align: center;
+}
+
+.logo-container h1 {
+    color: white;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+}
+
+.logo-container p {
+    color: white;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+}
